@@ -7,8 +7,13 @@ Absolute madness.
 
 The following helped greatly for further practice:
 
+### More Commands and Tips
 http://swcarpentry.github.io/git-novice/02-setup/
 
 https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/
+
+### Learn to style stuff on Git
+https://guides.github.com/features/mastering-markdown/
+
 
 Hoorah!!
