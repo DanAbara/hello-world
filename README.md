@@ -15,5 +15,7 @@ https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-c
 ### Learn to style stuff on Git
 https://guides.github.com/features/mastering-markdown/
 
+### Syncing a fork with upstream/master
+https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork
 
 Hoorah!!
