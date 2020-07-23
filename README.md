@@ -56,18 +56,22 @@ Push changes to your fork
     
 
 ### Sources
-####### Setup Git
+Setup Git
+
 http://swcarpentry.github.io/git-novice/02-setup/
 
 https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/
 
-####### Learning markdown
+Learning markdown
+
 https://guides.github.com/features/mastering-markdown/
 
-####### Syncing with upstream/master
+Syncing with upstream/master
+
 https://rick.cogley.info/post/update-your-forked-repository-directly-on-github/
 
-####### Undoing changes
+Undoing changes
+
 https://www.atlassian.com/git/tutorials/undoing-changes
 
 Hoorah!!
