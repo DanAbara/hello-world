@@ -63,6 +63,8 @@ http://swcarpentry.github.io/git-novice/02-setup/
 
 https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/
 
+https://dev.px4.io/master/en/contribute/git_examples.html#contributing_code
+
 Learning markdown
 
 https://guides.github.com/features/mastering-markdown/
