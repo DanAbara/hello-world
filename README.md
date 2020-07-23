@@ -12,7 +12,7 @@ The following have been helful
     $ git clone [repository_to_clone]
 
     # List and checkout tags
-    $ git -l
+    $ git tag -l
     
     # switch head to your chosen tag
     $ git checkout [tag]
@@ -32,9 +32,10 @@ View short log
 
 
 ### Sync fork with original repo
-First check origin and upstream
+First check origin and add upstream
     
-    $ git remove -v
+    $ git remote -v
+    $ git remote add upstream https://github.com/[OriginalOwner]/[OriginalProject].git
 
 Fetch from upstream
     
@@ -74,4 +75,3 @@ Undoing changes
 
 https://www.atlassian.com/git/tutorials/undoing-changes
 
-Hoorah!!
