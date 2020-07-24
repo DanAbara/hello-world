@@ -1,11 +1,7 @@
-# hello-world
+# My Quick Git Reference
 Learning the ropes !!!
 
-Curiously seeking the truth, coding when I can, dancing whether or not I need to. 
-
-Absolute madness.
-
-The following have been helful
+The following have been useful.
 
 ### Clone a Git Repo to a Specific tag
     # clone the repo
@@ -14,23 +10,25 @@ The following have been helful
     # List and checkout tags
     $ git tag -l
     
-    # switch head to your chosen tag
+    # switch to your chosen tag
     $ git checkout [tag]
 
-### View git Log
-View entire log
-
-    $ git log
-
-View short log
+Switching to a specific tag only will not save local commits as HEAD will still be at Master. For that you need to create a branch from the tag, eg.
     
+    $ git checkout tags/[v1.10] -b [v1.10-new-feature]
+    Switched to a new branch 'v1.10-new-feature'
+
+Now HEAD is on the new branch 'v1.10-new-feature'. After working on your custom branch, push changes to your forked repo.
+   
+    $ git push origin [v1.10-new-feature]
+
+You can then create a pull request to merge changes to master.
+    
+### View git Log
+    
+    $ git log --pretty --abbrev-commit
     $ git log --oneline
-
-
-### Undo Commits to invert last commit
-    $ git revert HEAD
-
-
+    
 ### Sync fork with original repo
 First check origin and add upstream
     
@@ -64,6 +62,11 @@ Add origin
 Update origin
 
     $ git remote set-url origin https://https://github.com/[gitusername]/[gitrepository].git
+
+
+### Undo Commits to invert last commit
+    $ git revert HEAD
+
 
 ### Sources
 Setup Git
