@@ -56,6 +56,15 @@ Push changes to your fork
     $ git push origin master
     
 
+### Add/Update Origin (Similar to adding Upstream)
+Add origin
+ 
+    $ git remote add origin https://https://github.com/[gitusername]/[gitrepository].git
+ 
+Update origin
+
+    $ git remote set-url origin https://https://github.com/[gitusername]/[gitrepository].git
+
 ### Sources
 Setup Git
 
